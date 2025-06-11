@@ -1,0 +1,17 @@
+.footer {
+  background-color: brown;
+  margin-top: -10px;
+  border-radius: 0px 0px 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.footer h2 {
+  font-family: "Edu VIC WA NT Hand", cursive;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
