@@ -7,11 +7,8 @@
 
 .timer h4 {
   font-size: 1.2rem;
-  text-transform: uppercase;
-}
-
-.timer h4 {
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .timer p {
@@ -21,4 +18,18 @@
   padding: 10px;
   border-radius: 15px;
   font-weight: 300;
+}
+
+/* Ajuste para mobile */
+@media (max-width: 768px) {
+  .timer h4 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .timer p {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 8px;
+  }
 }

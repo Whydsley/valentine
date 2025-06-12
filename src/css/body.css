@@ -54,7 +54,7 @@
 .content .bg {
   position: absolute;
   width: 150vw;
-  height: 200vh;
+  height: 201vh;
   top: 0;
   left: -300px;
   margin: 0;
@@ -77,5 +77,37 @@
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 15px;
     padding: 15px;
+  }
+}
+
+/* Ajuste para mobile */
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-image {
+    padding: 5px;
+    border-radius: 15px;
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  .content .bg {
+    width: 200%;
+    height: 200%;
+  }
+
+  .text {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .text p {
+    margin: 0 10px;
+    padding: 10px;
   }
 }

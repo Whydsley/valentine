@@ -6,9 +6,10 @@
 }
 
 .time-acumulated h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
   text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 1px;
+  text-align: center;
 }
 
 .time-acumulated ul {
@@ -18,4 +19,16 @@
   background-color: rgba(145, 42, 42, 0.6);
   border-radius: 15px;
   font-weight: 300;
+}
+
+/* Ajuste para mobile */
+@media (max-width: 768px) {
+  .time-acumulated h4 {
+    font-size: 1rem;
+  }
+
+  .time-acumulated ul {
+    font-size: 1rem;
+    padding: 10px;
+  }
 }

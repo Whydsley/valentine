@@ -12,3 +12,15 @@ body {
   background-color: #fcc1c1;
   background-image: url("../assets/bg.png");
 }
+
+/* Ajuste para mobile */
+@media (max-width: 768px) {
+  * {
+    margin: 5px;
+  }
+
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+}
