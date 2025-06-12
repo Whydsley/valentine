@@ -52,9 +52,9 @@
 }
 
 .content .bg {
-  position: absolute;
+  position: fixed;
   width: 150vw;
-  height: 201vh;
+  height: 100vh;
   top: 0;
   left: -300px;
   margin: 0;
@@ -97,8 +97,8 @@
   }
 
   .content .bg {
-    width: 200%;
-    height: 200%;
+    width: 155vw;
+    height: 100vh;
   }
 
   .text {
